@@ -1,0 +1,33 @@
+body{
+background:#030014;
+color:white;
+font-family:Arial;
+text-align:center;
+}
+
+nav a{
+margin:10px;
+color:#22D3EE;
+text-decoration:none;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:rgba(255,255,255,0.05);
+padding:20px;
+border-radius:10px;
+width:200px;
+border:1px solid #22D3EE33;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 0 15px #22D3EE;
+}
